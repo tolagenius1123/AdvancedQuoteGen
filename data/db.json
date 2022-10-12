@@ -1,0 +1,34 @@
+{
+  "userQuotes": [
+    {
+      "id": 1,
+      "quote": "The Future is Now",
+      "author": "Jinadu Omotola"
+    },
+    {
+      "id": 2,
+      "quote": "No time to waste time",
+      "author": "James Anthon"
+    },
+    {
+      "quote": "The decisions we make in time echoes in Eternity",
+      "author": "Marcus Aurelius",
+      "id": 3
+    },
+    {
+      "quote": "Breast is life",
+      "author": "Dolapo",
+      "id": 4
+    },
+    {
+      "quote": "howfar",
+      "author": "guyu",
+      "id": 5
+    },
+    {
+      "quote": "The time has come",
+      "author": "My Guy",
+      "id": 6
+    }
+  ]
+}

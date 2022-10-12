@@ -1,0 +1,17 @@
+.google-auth {
+    background: #425F57;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+#google {
+    margin: 0 auto;
+}

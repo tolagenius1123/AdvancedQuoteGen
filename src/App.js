@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import QuoteGenerator from "./components/QuoteGenerator";
+import AddQuote from "./components/AddQuote";
+import Auth from "./components/Auth";
+import { GoogleOAuthProvider } from '@react-oauth/google';
 
 function App() {
   return (
+    <GoogleOAuthProvider clientId="464529379469-vdr1g7oiheaohu700tfibgnp8glgqe34.apps.googleusercontent.com">
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        {/* <Navbar /> */}
+        <Routes>
+          <Route path="/" element={<Auth/>}/>
+          <Route path="/quotes" element={<QuoteGenerator/>}/>
+          <Route path="/addquote" element={<AddQuote/>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
+  </GoogleOAuthProvider>
+
   );
 }
 

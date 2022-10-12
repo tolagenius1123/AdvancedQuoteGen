@@ -1,0 +1,70 @@
+.quote-generator {
+    width: 50%;
+    /* height: 60vh; */
+    margin: 0 auto;
+    background: #425F57;
+    color: white;
+    position: relative;
+    top: 25vh;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.quote {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.quote h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.quote-icon-right {
+    font-size: 50px;
+    
+}
+
+.quote-icon-left {
+    font-size: 50px;
+    
+}
+
+.author {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: right;
+}
+
+hr {
+    background: white;
+    margin-top: 20px;
+}
+
+.btns {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #425F57;
+}
+
+.btns button:hover {
+    color: darkgrey;
+    color: black;
+}
+
+.tag {
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+}

@@ -41,7 +41,7 @@ const AddQuote = () => {
                     <textarea name="quote" cols="30" rows="5" onChange={handleChange} value={userQuote.quote}></textarea>
                     <label>Author</label>
                     <input type="text" name='author' onChange={handleChange} value={userQuote.author}/>
-                    <button id='form-btn' onClick={handleSubmit}>Submit</button>
+                    <button id='form-btn' onClick={handleSubmit}>Submit Quote</button>
                 </form>
             </div>
         </>
